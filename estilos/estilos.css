@@ -1,0 +1,28 @@
+body{
+    background-color: #333;
+}
+
+.navbar-nav a {
+    color: white;
+}
+#banner{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('/imagenes/banner3.jpg');
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+.mask{
+    width: 100%;
+    position: absolute;
+    padding: 1,5em 1;
+    bottom: 0;
+    left: 0;
+    background: rgba(27, 27, 27, 0.75);
+}
+
+.clientes{
+    background: white;
+}
