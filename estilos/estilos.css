@@ -27,8 +27,6 @@ body{
     background: white;
 }
 
-
-/* DEMO GENERAL ============================== */
 .hover {
     overflow: hidden;
     position: relative;
@@ -116,8 +114,29 @@ body{
   }
   
   
-  
   body {
     min-height: 100vh;
     background-color: #fafafa;
   }
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    color: #fff;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 47px;
+}
