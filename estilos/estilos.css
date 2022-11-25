@@ -1,5 +1,6 @@
 body{
     background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-nav a {
@@ -186,3 +187,31 @@ body{
             display: block;
             width: 100%;
         }
+.clientes{
+    background: white;
+}
+
+.imagen-nosotros {
+    border-radius: 35rem 10rem 35rem 10rem;
+}
+
+.titulo-nosotros {
+    font-family: 'Great Vibes', cursive;
+
+}
+
+.carrousel-cliente {
+  width: 450px;
+  height: 450px;
+  align-content: center;
+}
+
+.titulo-banner {
+  font-family: 'Great Vibes', cursive;
+}
+
+#productos {
+  margin: auto;
+  width: fit-content;
+  word-wrap: break-word;
+}
